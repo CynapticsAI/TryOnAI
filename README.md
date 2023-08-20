@@ -11,14 +11,20 @@ Before you get started, ensure you have the following prerequisites:
 
 - **Python Environment**: Make sure you have Python installed on your system.
 
-- **DreamBooth**: You need to have DreamBooth installed. Visit the [DreamBooth website](https://dreambooth.ai/) for installation instructions.
-
 - **Stable Diffusion Inpaint**: Install Stable Diffusion Inpaint. Refer to its documentation or source repository for installation details.
 
-- **Python Dependencies**: Install the required Python packages by running the following command in your project directory:
+- **Python Dependencies**: Install the required Python packages 
+## Dependencies
 
-  ```bash
-  pip install -r requirements.txt
+This project relies on the following external libraries and models:
+```bash
+ https://github.com/Fantasy-Studio/Paint-by-Example
+```
+
+```bash
+https://huggingface.co/Fantasy-Studio/Paint-by-Example
+```
+
 
 
 ## How to Use
@@ -29,10 +35,11 @@ Follow these steps to use TryOnAI:
 
    ```bash
    git clone https://github.com/your-username/tryon-ai.git
+   ```
 
-Navigate to the Project Directory: Enter the project directory.
+2. **Navigate to the Project Directory**: Enter the project directory.
     
-    cd tryon-ai
+   cd tryon-ai
 
 **Prepare Input Image**: 
 Prepare an image of yourself wearing basic clothing. Ensure it's clear and well-lit. Name it 'input.jpeg' and place it in the project directory.
