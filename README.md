@@ -7,16 +7,15 @@ It's commonly used in the fashion and e-commerce industries to enhance the onlin
 
 ## Requirements
 
-Before you get started, ensure you have the following prerequisites:
+Ensure you have the following prerequisites:
 
 - **Python Environment**: Make sure you have Python installed on your system.
 
-- **Stable Diffusion Inpaint**: Install Stable Diffusion Inpaint. Refer to its documentation or source repository for installation details.
-
-- **Python Dependencies**: Install the required Python packages 
+- **Python Dependencies**: Install the required Python packages
+  
 ## Dependencies
 
-This project relies on the following external libraries and models:
+This project relies on the following model:
 ```bash
  https://github.com/Fantasy-Studio/Paint-by-Example
 ```
